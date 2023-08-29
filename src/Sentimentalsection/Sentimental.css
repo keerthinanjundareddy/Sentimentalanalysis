@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    
+}
+.sentimental-card-flexbox-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    width:100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+   
+}
+
+/* .sentimental-input section{
+    border:1px solid yellow !important;
+    flex-basis: 45%;
+} */
+.sentimental-output-section{
+    border:1px solid pink;
+    flex-basis: 20%;
+ 
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.sentimental-input-section{
+    border:1px solid pink;
+    flex-basis: 20%;
+   
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.heading-section{
+    text-align: center;
+
+}
+.input-text-div{
+  color:grey;
+  text-align: center;
+  width:100%;
+  height:40px;
+  margin-top: 10px;
+  border:none;
+  outline:none;
+  border:1px solid grey;
+  border-radius: 5px;
+
+
+}
+.output-text-div{
+    color:grey;
+    text-align: center;
+    width:100%;
+    height:40px;
+    margin-top: 10px;
+    border:none;
+    outline:none;
+    border:1px solid yellow;
+    border-radius: 5px;
+}
+.final-sentimental-div{
+    margin-top:20px ;
+}
+@media (max-width: 600px) {
+    .sentimental-output-section{
+        border:1px solid pink;
+        flex-basis: 40%;
+     
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    
+    .sentimental-input-section{
+        border:1px solid pink;
+        flex-basis: 40%;
+       
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+}
