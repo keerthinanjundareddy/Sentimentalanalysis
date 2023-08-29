@@ -21,20 +21,20 @@ function Sentimental() {
   return (
     <div className='full-container'>
       <div>
-        <div className='heading-section'>Sentimental Analysis</div>
+        <div className='sentimental-heading-section'>Sentimental Analysis</div>
       </div>
 
       <div className='sentimental-card-flexbox-container'>
         <div className='sentimental-input-section'>
-          <div style={{ color: 'white' }}>Input -section</div>
-          <div style={{ color: 'white' }} className='enter-name-div'>
+          <div style={{ color: 'black' }}>Input -section</div>
+          <div style={{ color: 'black' }} className='enter-name-div'>
             Enter input:
           </div>
           <div>
             <input
               type="text"
               value={userinput}
-              placeholder='enter text'
+              placeholder='Enter text'
               onChange={(e) => inputchange(e)}
               onKeyDown={(e) => handleEnter(e)} // Call handleEnter on key down
               className='input-text-div'
@@ -42,8 +42,8 @@ function Sentimental() {
           </div>
         </div>
         <div className='sentimental-output-section'>
-          <div style={{ color: 'white' }}>Output -section</div>
-          <div className='final-sentimental-div' style={{ color: 'white' }}>
+          <div style={{ color: 'black' }}>Output -section</div>
+          <div className='final-sentimental-div' style={{ color: 'black' }}>
                  sentimental Analysis Output
           </div>
           <div>

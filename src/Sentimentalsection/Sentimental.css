@@ -5,7 +5,16 @@
 }
 body{
     width:100%;
+    background-color:rgb(238, 231, 231); ;
     
+}
+.sentimental-heading-section{
+
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+
+
 }
 .sentimental-card-flexbox-container{
     display:flex;
@@ -14,67 +23,60 @@ body{
   
     width:100%;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 50px;
 
    
 }
 
-/* .sentimental-input section{
-    border:1px solid yellow !important;
-    flex-basis: 45%;
-} */
 .sentimental-output-section{
-    border:1px solid rgb(185, 171, 171);
+    border:1px solid white;
     flex-basis: 20%;
  
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+   padding:30px ;
     text-align: center;
-    border-radius: 5px;
-    background-color: rgb(185, 171, 171);
+    border-radius: 8px;
+    background-color: white;
 }
-
 .sentimental-input-section{
-    border:1px solid rgb(185, 171, 171);
+    border:1px solid white;
     flex-basis: 20%;
-   border-radius: 5px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+   border-radius: 8px;
+    padding: 30px;
     text-align: center;
-    background-color: rgb(185, 171, 171);
+    background-color: white;
 }
 .heading-section{
     text-align: center;
 
 }
 .input-text-div{
-  color:grey;
+    color:rgb(193, 187, 187);
   text-align: center;
   width:100%;
   height:40px;
   margin-top: 10px;
   border:none;
   outline:none;
-  border:1px solid white;
+  border:1px solid rgb(193, 187, 187);
   border-radius: 5px;
+ 
 
 
 
 }
 .output-text-div{
-    color:grey;
+    color:rgb(193, 187, 187);
     text-align: center;
     width:100%;
     height:40px;
     margin-top: 10px;
     border:none;
     outline:none;
-    border:1px solid white;
+    border:1px solid rgb(193, 187, 187);
     border-radius: 5px;
+}
+::placeholder{
+    color:rgb(193, 187, 187);
 }
 .final-sentimental-div{
     margin-top:20px ;
@@ -83,6 +85,13 @@ body{
     margin-top: 20px;
 }
 @media (max-width: 600px) {
+    .sentimental-card-flexbox-container{
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+       
+
+    }
     .sentimental-output-section{
         border:1px solid pink;
         flex-basis: 40%;
@@ -92,6 +101,8 @@ body{
         padding-bottom: 10px;
         padding-right: 10px;
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .sentimental-input-section{
@@ -103,6 +114,8 @@ body{
         padding-bottom: 10px;
         padding-right: 10px;
         text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
