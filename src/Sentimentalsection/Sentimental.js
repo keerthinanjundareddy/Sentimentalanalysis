@@ -41,20 +41,24 @@ function Sentimental() {
             />
           </div>
         </div>
-        <div className='sentimental-output-section'>
-          <div style={{ color: 'black' }}>Output -section</div>
-          <div className='final-sentimental-div' style={{ color: 'black' }}>
-                 sentimental Analysis Output
+
+        {/* Conditionally render the output section */}
+        {userOutput && (
+          <div className='sentimental-output-section'>
+            <div style={{ color: 'black' }}>Output -section</div>
+            <div className='final-sentimental-div' style={{ color: 'black' }}>
+              Sentimental Analysis Output
+            </div>
+            <div>
+              <input
+                type="text"
+                value={userOutput}
+                className='output-text-div'
+                readOnly // Make the output field read-only
+              />
+            </div>
           </div>
-          <div>
-            <input
-              type="text"
-              value={userOutput}
-              className='output-text-div'
-              readOnly // Make the output field read-only
-            />
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );

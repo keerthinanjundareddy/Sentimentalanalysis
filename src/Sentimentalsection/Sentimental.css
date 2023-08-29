@@ -19,11 +19,12 @@ body{
 .sentimental-card-flexbox-container{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   
     width:100%;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap:30px;
 
    
 }
@@ -36,6 +37,8 @@ body{
     text-align: center;
     border-radius: 8px;
     background-color: white;
+ 
+    
 }
 .sentimental-input-section{
     border:1px solid white;
@@ -44,6 +47,8 @@ body{
     padding: 30px;
     text-align: center;
     background-color: white;
+
+     
 }
 .heading-section{
     text-align: center;
@@ -84,7 +89,7 @@ body{
 .enter-name-div{
     margin-top: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .sentimental-card-flexbox-container{
         display:flex;
         flex-direction: column;
