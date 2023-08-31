@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Sentimental.css';
+import Sentimentalsect from '../Assets/Sentimentalanlysis.png'
 
 function Sentimental() {
   const [userinput, setUserinput] = useState('');
@@ -21,12 +22,15 @@ function Sentimental() {
   return (
     <div className='full-container'>
       <div>
-        <div className='sentimental-heading-section'>Sentimental Analysis</div>
+        <div className='sentimental-heading-section'><b>Sentimental Analysis</b></div>
       </div>
 
       <div className='sentimental-card-flexbox-container'>
         <div className='sentimental-input-section'>
-          <div style={{ color: 'black' }}>Input -section</div>
+          <div style={{ color: 'black' }}><b>Input -section</b></div>
+          <div className='input-section-image'>
+            <img src={Sentimentalsect} alt="analysis" className='input-section-image-div' />
+          </div>
           <div style={{ color: 'black' }} className='enter-name-div'>
             Enter input:
           </div>
@@ -45,10 +49,13 @@ function Sentimental() {
         {/* Conditionally render the output section */}
         {userOutput && (
           <div className='sentimental-output-section'>
-            <div style={{ color: 'black' }}>Output -section</div>
-            <div className='final-sentimental-div' style={{ color: 'black' }}>
-              Sentimental Analysis Output
-            </div>
+            <div style={{ color: 'black' }}><b>Sentimental Analysis Output</b></div>
+            {/* <div className='final-sentimental-div' style={{ color: 'black' }}>
+             <b> Sentimental Analysis Output </b>
+            </div> */}
+            <div className='output-section-image'>
+              <img src={Sentimentalsect } alt="analysis" className='output-section-image-div'/>
+              </div>
             <div>
               <input
                 type="text"

@@ -13,6 +13,8 @@ body{
     color:black;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 
 }
@@ -88,6 +90,32 @@ body{
 }
 .enter-name-div{
     margin-top: 20px;
+}
+
+.input-section-image{
+
+    width: 200px;
+    height:200px;
+
+}
+.input-section-image-div{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+.outpuut-section-image{
+
+    width: 200px;
+    height:200px;
+
+}
+.output-section-image-div{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
 }
 @media (max-width: 700px) {
     .sentimental-card-flexbox-container{
