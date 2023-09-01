@@ -155,4 +155,17 @@ body{
         margin-right: 10px;
     }
 
+    .input-section-image-div{
+        width: 50%;
+        height:50%;
+        object-fit: cover;
+    
+    }
+    .output-section-image-div{
+        width: 50%;
+        height:50%;
+        object-fit: cover;
+    
+    }
+
 }
