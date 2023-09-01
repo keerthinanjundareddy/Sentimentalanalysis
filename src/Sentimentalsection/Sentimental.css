@@ -24,7 +24,7 @@ body{
     justify-content: center;
   
     width:100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 50px;
     gap:30px;
 
@@ -92,12 +92,7 @@ body{
     margin-top: 20px;
 }
 
-.input-section-image{
 
-    width: 200px;
-    height:200px;
-
-}
 .input-section-image-div{
     width: 100%;
     height:100%;
@@ -136,7 +131,7 @@ body{
     }
     .sentimental-output-section{
         border:1px solid pink;
-        flex-basis: 40%;
+        flex-basis: 100%;
      
         padding-left: 10px;
         padding-top: 10px;
@@ -149,7 +144,7 @@ body{
     
     .sentimental-input-section{
         border:1px solid pink;
-        flex-basis: 40%;
+        flex-basis: 100%;
        
         padding-left: 10px;
         padding-top: 10px;
