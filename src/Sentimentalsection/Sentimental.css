@@ -117,6 +117,15 @@ body{
     object-fit: cover;
 
 }
+
+.output-text-div{
+    border:none;
+    outline:none;
+    border: 1px solid #FFE9E9;
+    background-color:#FFE9E9;
+    color:#CB0000;
+    
+}
 @media (max-width: 700px) {
     .sentimental-card-flexbox-container{
         display:flex;
