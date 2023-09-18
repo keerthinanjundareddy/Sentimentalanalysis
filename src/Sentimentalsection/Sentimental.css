@@ -33,7 +33,7 @@ body{
 
 .sentimental-output-section{
     border:1px solid white;
-    flex-basis: 20%;
+    flex-basis: 25%;
  
    padding:30px ;
     text-align: center;
@@ -44,7 +44,7 @@ body{
 }
 .sentimental-input-section{
     border:1px solid white;
-    flex-basis: 20%;
+    flex-basis: 25%;
    border-radius: 8px;
     padding: 30px;
     text-align: center;
@@ -66,10 +66,8 @@ body{
   outline:none;
   border:1px solid rgb(193, 187, 187);
   border-radius: 5px;
- 
-
-
-
+  min-height: 10px;
+  
 }
 .output-text-div{
     color:rgb(193, 187, 187);
@@ -89,13 +87,13 @@ body{
     margin-top:20px ;
 }
 .enter-name-div{
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 
 .input-section-image-div{
-    width: 100%;
-    height:100%;
+    width: 70%;
+    height:70%;
     object-fit: cover;
 
 }
@@ -116,9 +114,9 @@ body{
 .output-text-div{
     border:none;
     outline:none;
-    border: 1px solid #FFE9E9;
-    background-color:#FFE9E9;
-    color:#CB0000;
+    border: 1px solid black;
+    /* background-color:#FFE9E9; */
+    color:black;
     
 }
 @media (max-width: 700px) {
@@ -144,7 +142,8 @@ body{
     
     .sentimental-input-section{
         border:1px solid pink;
-        flex-basis: 100%;
+        flex-grow: 1;
+        /* flex-basis: 100%; */
        
         padding-left: 10px;
         padding-top: 10px;
